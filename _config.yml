@@ -1,1 +1,9 @@
+title: Paul's Bike Builds
+email: pauboutin@gmail.com
+description: >
+  Motorcycle builds by Paul
+baseurl: "/bikes"
+url: "https://paulboutin.github.io"
+instagram_username: pauboutin
+
 theme: jekyll-theme-minimal
