@@ -1,0 +1,155 @@
+/**
+* Pallet
+
+Gold - #CBB26A
+Black - #000000
+Light Yellow - #d8c690
+Light Gold - #be9e44
+Dark Gray - #1a1a1a
+Soft Yellow - #e5d9b6
+*/
+
+body {
+  background: #1a1a1a;
+  color: #707070;
+  font-size: medium;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #d8c690;
+}
+
+a, a:visited, a:active {
+  color: #be9e44;
+}
+
+a:hover, a:focus {
+  color: #d8c690;
+  font-weight: normal;
+}
+
+h1 a:hover, 
+h2 a:hover, 
+h3 a:hover, 
+h4 a:hover, 
+h5 a:hover, 
+h6 a:hover
+h1 a:focus, 
+h2 a:focus, 
+h3 a:focus, 
+h4 a:focus, 
+h5 a:focus, 
+h6 a:focus {
+  font-weight: bold;
+}
+
+img[src*="#border"] {
+  border-radius: 10px;
+}
+
+strong {
+  color: #be9e44;
+  font-weight: 700;
+}
+
+aside {
+  margin: 20px 0;
+  padding: 20px 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient( to right, #be9e44, #d8c690, #be9e44 ) 1 0%;
+  border-bottom: 0;
+  font-size: smaller;
+}
+
+blockquote {
+  margin: 0 0 20px 0; /* fix for using gradient */
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient( to bottom, #be9e44, #d8c690, #be9e44 ) 0 100%;
+  border-right: 0;
+}
+
+hr {
+  border: 0;
+  background: linear-gradient( to right, #be9e44, #d8c690, #be9e44 );
+  height: 1px;
+}
+
+th {
+  color: #be9e44;
+}
+
+@media print, screen and (max-width: 960px) {
+  section {
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient( to right, #be9e44, #d8c690, #be9e44 ) 1 0%;
+    padding: 20px 0;
+    margin: 0 0 20px;
+  }
+}
+
+/**
+ * Video embed
+ */
+
+ .super-iframe-holder {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.super-iframe-holder iframe,
+.super-iframe-holder object,
+.super-iframe-holder embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  outline: 0;
+}
+
+/**
+ * Navigation
+ */
+
+ .nav li.active a {
+  color: #d8c690;
+  cursor: default;
+}
+
+/**
+ * Icons
+ */
+
+ .orange {
+    color: #f66a0a;
+  }
+  
+  .grey {
+    color: #828282;
+  }
+  
+  .svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: currentColor;
+    padding: 5px 3px 2px 5px;
+    vertical-align: text-bottom;
+  }
+
+  footer {
+    font-size: smaller;
+  }
+
+  footer p {
+    margin: 0 0 5px;
+  }

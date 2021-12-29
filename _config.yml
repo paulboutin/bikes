@@ -1,12 +1,20 @@
-title: Paul's Bike Builds
+title: Paul's Bikes
 email: pauboutin@gmail.com
 description: >
-  Motorcycle builds by Paul
+  Hand built motorcycles by Paul
 baseurl: "/bikes"
 url: "https://paulboutin.github.io"
 instagram_username: pauboutin
 show_downloads: false
+show_title: false
 google_analytics: G-1DS9QJX73E
+logo: /assets/img/logo2.svg
+last_modified: "12.22.21"
+collections:
+  builds:
+    output: true
+    permalink: /:collection/:name
+    output_ext: false
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:

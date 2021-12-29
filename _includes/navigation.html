@@ -1,0 +1,22 @@
+<ul class="nav">
+  <li class="{% if page.url == '/' %}active{% endif %}">
+      <a href="/bikes/">Home</a>
+  </li>
+  <li class="{% if page.url == '/about/' %}active{% endif %}">
+      <a href="/bikes/about/">About</a>
+  </li>
+  <li class="{% if page.url == '/contact/' %}active{% endif %}">
+    <a href="/bikes/contact/">Contact</a>
+</li>
+</ul>
+
+<h4 style="margin-bottom:3px;">Builds</h4>
+<ul class="nav">
+  {% for build in site.builds %}
+    {% if build.in_nav %}
+      <li class="{% if page.url contains build.url %}active{% endif %}">
+          <a href="{{ build.url | relative_url }}">{{ build.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -1,0 +1,193 @@
+---
+layout: default
+---
+
+<style>
+    form .form-group {
+        display: flex;
+        flex-direction: row;
+    }
+    form h4 {
+        color: #668944;
+        margin-left: 20px;
+    }
+    label {
+        width: 100px;
+        margin: 5px 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+    input, textarea, .recaptcha, button, select {
+        margin: 5px 0;
+        padding: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 1px solid #be9e44;
+        background: none;
+    }
+    input:focus, textarea:focus, .recaptcha:focus, button:focus {
+        outline-color: #817244;
+    }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus,
+    textarea:-webkit-autofill:active,
+    select:-webkit-autofill,
+    select:-webkit-autofill:hover,
+    select:-webkit-autofill:focus,
+    select:-webkit-autofill:active {
+        transition: background-color 5000s ease-in-out 0s;
+        -webkit-text-fill-color: #be9e44;
+    }
+    input:-internal-autofill-selected {
+        appearance: menulist-button;
+        background-image: none !important;
+        background-color: #1a1a1a !important;
+        color: #be9e44 !important;
+    }
+    input.field, textarea, select {
+        min-width: 330px;
+        color: #be9e44;
+    }
+    select {
+        min-width: 342px;
+    }
+    textarea {
+        height: 150px;
+    }
+    button {
+        border: 0;
+        background-color: #be9e44;
+        padding: 8px 20px;
+        margin-top: 20px;
+    }
+    button:hover {
+        background-color: #CBB26A;
+        color: darken(#fff, 10%);
+    }
+    .notice {
+        display: none;
+        background-color: #f2dede;
+        border: 1px solid #ebccd1;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        padding: 10px 15px;
+        color: #a94442;
+        margin-top: 15px;
+    }
+    .input--hidden {
+        visibility: none;
+        position: absolute;
+        top: -10000px;
+        left: -10000px;
+    }
+    .recaptcha {
+        padding: 0;
+        display: inline-block;
+    }
+    .recaptcha div.image {
+        -webkit-border-radius: 5px 5px 0 0;
+        -moz-border-radius: 5px 5px 0 0;
+        border-radius: 5px 5px 0 0;
+        padding: 10px;
+        background-color: #fff;
+        width: 320px;
+    }
+    .recaptcha br {
+        display: none;
+    }
+    .recaptcha embed, .recaptcha span {
+        float: left;
+        clear: both;
+    }
+    .recaptcha a {
+        cursor: pointer;
+        font-size: 0.9em;
+    }
+
+    .recaptcha div.headline {
+        padding: 5px 5px 0 10px;
+    }
+
+    .recaptcha input[type=text] {
+        margin: 10px;
+    }
+</style>
+<form id="contact-form" name="contact-form" data-success="Message successfully sent!" onSubmit="return submitForm(event)">
+    <div class="form-group">
+        <label for="NAME">Name</label>
+        <input class="field" maxlength="200" type="text" id="NAME" name="NAME" data-required="true" required />
+    </div>
+    <div class="form-group">
+        <label for="EMAIL">E-mail</label>
+        <input class="field" type="text" id="EMAIL" name="EMAIL" data-required="true" required />
+    </div>
+    <div class="form-group">
+        <label for="SUBJECT">Subject</label>
+        <select class="field" id="SUBJECT" name="SUBJECT" data-required="true">
+            <option value="" disabled selected hidden>Select one</option>
+            <option value="1">
+              General Inquiry
+            </option>
+            <option value="2">
+              Question about a build
+            </option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="MESSAGE">Message</label>
+        <textarea class="field" maxlength="200" type="text" id="MESSAGE" name="MESSAGE" autocomplete="off" data-required="true" required ></textarea>
+    </div>
+    <div id="notice" class="notice" data-captcha-failed="Incorrect captcha!" data-error="There was an error sending the message, please try again."></div>
+    <input type="text" name="email_address_check" value="" class="input--hidden" />
+    <input type="hidden" name="locale" value="en" />
+    <input type="hidden" name="html_type" value="simple" />
+    <div class="form-group">
+        <label>&nbsp;</label>
+        <button form="contact-form" type="submit">
+            Send
+        </button>
+    </div>
+</form>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6Lc8NMcdAAAAAIyNTIWfjHAg6X0gzPFZCEcxAY3X"></script>
+<script>
+    function submitForm(ev) {
+        ev.preventDefault();
+
+        var form = document.forms.namedItem('contact-form');
+        var formData = new FormData(form);
+        var notice = document.getElementById('notice');
+        var url = 'https://de3a8d72.sibforms.com/serve/MUIEAOqP2iOdOAKS-n1DZA_Ry_XK7Q55N4Ezdbt-btvwsX7RJWj_lNRfUuEEjKq8C5yfqPuWjX4SEjrOljacq1GFoeMqN3Dy8_qfBheKEiTkDCfphMAuYHdDjPiqVPvQ0wHx0ks_wl7whrYHAVbmiROdonubO33Y4bODMpfV-sDc2UunMGl_iMykaKuoG3oL0xty-OBcQvX0pyy8';
+
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6Lc8NMcdAAAAAIyNTIWfjHAg6X0gzPFZCEcxAY3X', {action: 'submit'}).then(function(token) {
+                var xmlhttp = new XMLHttpRequest();
+
+                xmlhttp.onreadystatechange = function() {
+                    if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+                        if (xmlhttp.status == 200) {
+                            // form.fadeOut(function() {
+                                form.innerHTML = '<h4>' + form.dataset.success + '</h4>';
+                            // });
+                        } else if (xmlhttp.status == 400) {
+                            notice.textContent = notice.dataset.error;
+                        } else {
+                            notice.textContent = notice.dataset.error;
+                        }
+                    }
+                };
+                xmlhttp.open('POST', url, true);
+                xmlhttp.send(formData);                
+            });
+        });
+
+        return false;
+    }
+</script>
