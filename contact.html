@@ -119,7 +119,7 @@ layout: default
         margin: 10px;
     }
 </style>
-<form id="contact-form" name="contact-form" data-success="Message successfully sent!" onSubmit="return submitForm(event)">
+<form id="contact-form" name="contact-form" method="post" action="https://de3a8d72.sibforms.com/serve/MUIEAOqP2iOdOAKS-n1DZA_Ry_XK7Q55N4Ezdbt-btvwsX7RJWj_lNRfUuEEjKq8C5yfqPuWjX4SEjrOljacq1GFoeMqN3Dy8_qfBheKEiTkDCfphMAuYHdDjPiqVPvQ0wHx0ks_wl7whrYHAVbmiROdonubO33Y4bODMpfV-sDc2UunMGl_iMykaKuoG3oL0xty-OBcQvX0pyy8" data-success="Message successfully sent!" onSubmit="return submitForm(event)">
     <div class="form-group">
         <label for="NAME">Name</label>
         <input class="field" maxlength="200" type="text" id="NAME" name="NAME" data-required="true" required />
@@ -161,30 +161,12 @@ layout: default
     function submitForm(ev) {
         ev.preventDefault();
 
-        var form = document.forms.namedItem('contact-form');
-        var formData = new FormData(form);
-        var notice = document.getElementById('notice');
-        var url = 'https://de3a8d72.sibforms.com/serve/MUIEAOqP2iOdOAKS-n1DZA_Ry_XK7Q55N4Ezdbt-btvwsX7RJWj_lNRfUuEEjKq8C5yfqPuWjX4SEjrOljacq1GFoeMqN3Dy8_qfBheKEiTkDCfphMAuYHdDjPiqVPvQ0wHx0ks_wl7whrYHAVbmiROdonubO33Y4bODMpfV-sDc2UunMGl_iMykaKuoG3oL0xty-OBcQvX0pyy8';
+        // var form = document.forms.namedItem('contact-form');
+        // var notice = document.getElementById('notice');
 
         grecaptcha.ready(function() {
             grecaptcha.execute('6Lc8NMcdAAAAAIyNTIWfjHAg6X0gzPFZCEcxAY3X', {action: 'submit'}).then(function(token) {
-                var xmlhttp = new XMLHttpRequest();
-
-                xmlhttp.onreadystatechange = function() {
-                    if (xmlhttp.readyState == XMLHttpRequest.DONE) {
-                        if (xmlhttp.status == 200) {
-                            // form.fadeOut(function() {
-                                form.innerHTML = '<h4>' + form.dataset.success + '</h4>';
-                            // });
-                        } else if (xmlhttp.status == 400) {
-                            notice.textContent = notice.dataset.error;
-                        } else {
-                            notice.textContent = notice.dataset.error;
-                        }
-                    }
-                };
-                xmlhttp.open('POST', url, true);
-                xmlhttp.send(formData);                
+                return true;   
             });
         });
 
