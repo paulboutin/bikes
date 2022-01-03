@@ -16,6 +16,7 @@ in_nav: true
 ![GL500](/bikes/assets/img/GL500/IMG_1474.jpg#border)
 
 [![GL500](/bikes/assets/img/GL500/IMG_1477_cover_play.jpg#border)](/bikes/builds/honda-gl500-video "Listen to it run")
+*Running video*
 
 ![GL500](/bikes/assets/img/GL500/IMG_7043.jpg#border)
 
