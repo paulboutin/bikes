@@ -11,4 +11,4 @@ This site is dedicated to motorcycle builds by Paul Boutin. You can see what Pau
 
 Paul has been building bikes since 2016. Born in New England and recently transplanted to Arizona, Paul has been making quick work of establishing himself in the local motorcycle scene. His builds are real head turners and his hard work is getting noticed.
 
-If you would like more info on his builds or inquire about a show you have coming up you would like Paul to attend, use the [contact form](/bikes/contact/) or connect with him on Instagram.
+If you would like more info on his builds, request a custom build or inquire about a show you have coming up you would like Paul to attend, use the [contact form](/bikes/contact/) or connect with him on Instagram.
