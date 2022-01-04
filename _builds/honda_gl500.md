@@ -8,15 +8,15 @@ aside: 1982 Honda GL500 (Silverwing) Converted to this beautiful restomod caf´e
 
 ![GL500](/bikes/assets/img/GL500/IMG_1927.jpg#border)
 
-Right from the start Paul had a vision for this build. The GL is not a very forgiving platform as the CX, with the bulky frame but that was a challenge Paul was not afraid to tackle. Taking inspiration from Sacha Lakic's "BT-01" and Ugly Motors "Black Beauty". Paul has crafted a perfect blend of style and performance enhancements with this build.
+Right from the start I had a vision for this build. The GL is not a very forgiving platform as the CX, with the bulky frame but I was up for the challenge. Taking inspiration from Sacha Lakic's "BT-01" and Ugly Motors "Black Beauty". I wanted to blend the simplicity of the Black Beauty with the performance and modern feel of the BT-01. I like to think I was successfully with that goal in this build.
 
 ![GL500](/bikes/assets/img/GL500/IMG_1928.jpg#border)
 
-With Yamaha GSX-R 1000 front forks and Honda CBR954 RR rear mono shock, the handling of this machine got a huge upgrade from stock and the bike was given a more aggressive stance. Paul paid close attention to be sure that the geometry was just right.
+With Yamaha GSX-R 1000 front forks and Honda CBR954 RR rear mono shock, the handling of this machine got a huge upgrade from stock and the bike was given a more aggressive stance. I was sure to pay close attention to the geometry so it would handle link a modern sport bike.
 
 ![GL500](/bikes/assets/img/GL500/IMG_1766.jpg#border)
 
-The frame was cleaned up to knock off the ugly, seam welds and side panel mounting holes. The rear sub-frame was re-imagined with simple lines and upswept tail. The tank paint features a subtle skull hidden in the matt stripe going down the center that disappears is certain light.
+The frame was cleaned up to knock off the ugly, seam welds and side panel mounting holes removed. The rear sub-frame was re-imagined with simple lines and upswept tail. The tank paint features a subtle skull hidden in the matt stripe going down the center that disappears is certain light.
 
 ![GL500](/bikes/assets/img/GL500/IMG_1697.jpg#border)
 
