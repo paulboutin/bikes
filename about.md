@@ -14,10 +14,10 @@ Sometime around 2016, having seen lots of custom bikes on social media, inspirat
 
 With a father who always did his own repairs, I had exposure to his workshop and tools from a young age. He would often find me taking apart my toys to see how they would work, repairing them or modifying them to make something comply different. At the age of 15 I was already fixing, repairing and modifying my own cars. 
 
-With a few tools and desire to learn, the bike was striped down in no time. This is where most projects fail, the task gets daunting and overwhelming or you realize your in over your head. Filled with determination and pressing on, ideas were forming and new tools were being purchased and the build began to take shape. 
+Even with the few tools I had, the bike was striped down in no time. There was an empty frame and a pile of parts, one pile for keeps and another for discards. This is where most projects fail, the project seems overwhelming and you realize you're in over your head, but with determination I pressed on. Armed with a grinder and a welder the bike began to take shape. 
 
-That first build always seems to drag out, having doubts and reworking things over and over because some aspect was missed or something just didn't feel right. It took 4 years to complete the build after starting over a few times, taking long brakes to save money for the next part purchase. But as things go, when a project ends theres now something missing, the desire to keep building and creating. 
+That first build seemed to drag out, having doubts and reworking things over and over because some aspect was missed or something just didn't feel right. It took 4 years to complete the build after starting over a few times, taking long brakes to save money for the next part purchase or life just got in the way. But as things go, when a project ends theres now something missing, the desire to keep building and creating. 
 
-Now living in Arizona with an art and engineering background, I enjoy working with electronics, wiring and building bikes. I'm always pushing myself to learn new things and continue to improve my fabrication skills.
+Now living in Arizona with an art and engineering background, I'm working on new builds, trying new things and pushing myself creatively. I enjoy my time in the garage building bikes, working with electronics, wiring or generally being creative. I'm always striving to level up, learn new things and continue to improve my fabrication skills.
 
-If you would like more info on my builds, request a custom build or inquire about a show you have coming up you would like me to attend, use the [contact form](/bikes/contact/) or connect with me on Instagram.
+If you would like more info on my builds, request a custom build or just to say hi, use the [contact form](/bikes/contact/) or connect with me on Instagram.
