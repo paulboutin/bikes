@@ -9,6 +9,7 @@ aside: My mission is to build machines that can be thought of as works of art, i
 
 This site is dedicated to motorcycle builds by me, Paul Boutin. You can see what I'm currently up to on my instagram page [@{{ site.instagram_username }}](instagram.com/{{ site.instagram_username }})
 
+### My Story
 Sometime around 2016, having seen lots of custom bikes on social media, inspiration struck me and by the end of the year a donor bike was obtained. Drawing from those inspirations there was a picture in my head of what it was to become, but had little idea on where to start. This is not to say that I didn't have any experience with this kind of thing, but it had been a long time since any major work or repairs had been done by me on my own vehicles, other than the simple oil change. 
 
 With a father who always did his own repairs, I had exposure to his workshop and tools from a young age. He would often find me taking apart my toys to see how they would work, repairing them or modifying them to make something comply different. At the age of 15 I was already fixing, repairing and modifying my own cars. 
