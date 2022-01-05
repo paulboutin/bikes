@@ -10,6 +10,7 @@ Soft Yellow - #e5d9b6
 */
 
 body {
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
   background: #1a1a1a;
   color: #707070;
   font-size: medium;
@@ -67,7 +68,7 @@ aside {
   border-style: solid;
   border-image: linear-gradient( to right, #be9e44, #d8c690, #be9e44 ) 1 0%;
   border-bottom: 0;
-  font-size: smaller;
+  font-size: medium;
 }
 
 blockquote {
@@ -94,6 +95,10 @@ th {
 
 .intro {
   margin:15px 0 40px;
+}
+
+.location {
+  font-size: small;
 }
 
 @media print, screen and (max-width: 960px) {

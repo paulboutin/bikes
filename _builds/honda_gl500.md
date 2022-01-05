@@ -1,9 +1,9 @@
 ---
-title: GL500 Caf´e Racer
+title: GL500 Café Racer
 layout: default
 preview: /bikes/assets/img/GL500/IMG_1477_cover.jpg
 in_nav: true
-aside: 1982 Honda GL500 (Silverwing) Converted to this beautiful caf´e racer.
+aside: 1982 Honda GL500 (Silverwing) Converted to this beautiful café racer.
 ---
 
 ![GL500](/bikes/assets/img/GL500/IMG_1927.jpg#border)

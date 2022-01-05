@@ -5,7 +5,7 @@ aside: My mission is to build machines that can be thought of as works of art, i
 ---
 
 ![Paul](/bikes/assets/img/Paul.jpg#border)
-*Me on my Honda GL500 caf´e racer*
+*Me on my Honda GL500 café racer*
 
 This site is dedicated to motorcycle builds by me, Paul Boutin. You can see what I'm currently up to on my instagram page [@{{ site.instagram_username }}](instagram.com/{{ site.instagram_username }})
 
