@@ -1,2 +1,2 @@
-<p class="updated">Last updated <b>{% last_modified_at %}</b></p>
-<p class="copy">© Copyright 2022 - Paul Boutin</small></p>
+<p class="updated">Last updated <b>{{ site.time | date: '%m.%d.%y' }}</b></p>
+<p class="copy">© Copyright {{ site.time | date: '%Y' }} - Paul Boutin</small></p>
