@@ -9,7 +9,6 @@ show_downloads: false
 show_title: false
 google_analytics: G-1DS9QJX73E
 logo: /assets/img/logo2.svg
-last_modified: "01.04.22"
 collections:
   builds:
     output: true
@@ -19,3 +18,8 @@ collections:
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
+- jekyll-last-modified-at
+
+# The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%m.%d.%y'

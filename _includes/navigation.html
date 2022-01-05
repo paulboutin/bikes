@@ -10,8 +10,8 @@
 </li>
 </ul>
 
-<h4 style="margin-bottom:3px;">Builds</h4>
-<ul class="nav">
+<h4 class="nav-section-header" style="margin-bottom:3px;">Builds</h4>
+<ul class="nav nav-builds">
   {% for build in site.builds %}
     {% if build.in_nav %}
       <li class="{% if page.url contains build.url %}active{% endif %}">

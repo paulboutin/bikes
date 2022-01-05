@@ -52,6 +52,14 @@ strong {
   font-weight: 700;
 }
 
+p strong:first-of-type {
+  color: #707070;
+  display: inline-block;
+  font-weight: normal;
+  padding-left: 1em;
+  line-height: normal;
+}
+
 aside {
   margin: 20px 0;
   padding: 20px 10px;
@@ -80,6 +88,14 @@ th {
   color: #be9e44;
 }
 
+.center {
+  text-align: center;
+}
+
+.intro {
+  margin:15px 0 40px;
+}
+
 @media print, screen and (max-width: 960px) {
   section {
     border-width: 1px;
@@ -87,6 +103,29 @@ th {
     border-image: linear-gradient( to right, #be9e44, #d8c690, #be9e44 ) 1 0%;
     padding: 20px 0;
     margin: 0 0 20px;
+  }
+}
+
+@media print, screen and (max-width: 960px) {
+  header ul {
+    width: 140px;
+  }
+
+  header .nav-section-header {
+    position: absolute;
+    right: 50px;
+    top: 130px;
+    width: 160px;
+  }
+
+  header ul.nav-builds {
+    top: 152px;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  header .nav-section-header {
+    position: static;
   }
 }
 
