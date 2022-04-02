@@ -1,5 +1,5 @@
 ---
-title: GL500 Café Racer
+title: GL500 Café Racer "Jinx"
 layout: default
 preview: /bikes/assets/img/GL500/IMG_1477_cover.jpg
 in_nav: true
@@ -34,6 +34,6 @@ aside: 1982 Honda GL500 (Silverwing) Converted to this beautiful café racer.
 **T**he hump in the seat hides a Lithium-Ion battery and an M-unit bike controller removing the need for a key, but replaced with use of a mobile app. The ignition was upgraded with an electronic unit from Ray-san for more performance and no more need for igniters. Along with the ignition, the charging system also received an upgrade with a Caltric stator and new regulator rectifier from Rick's Electrics.
 
 ![GL500](/bikes/assets/img/GL500/IMG_1556.jpg#border)
-*Seat upholstery by Brian Will Stich [@brianwillstitch_az](https://www.instagram.com/brianwillstitch_az/)*
+*Seat upholstery by Brian Willingham [@brianwillstitch_az](https://www.instagram.com/brianwillstitch_az/)*
 
-**T**he seat completes the look with custom stitching by Brian Will Stich.
+**T**he seat completes the look with custom stitching by Brian Willingham.

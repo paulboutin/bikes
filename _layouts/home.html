@@ -29,9 +29,11 @@
 
         {% for build in site.builds %}
             {% if build.in_nav %}
+              <p>
                 <h3><a href="{{ build.url | relative_url }}">{{ build.title }}</a></h3>
             
                 <img alt="{{ build.title }}" src="{{build.preview}}#border" />
+              </p>
             {% endif %}
         {% endfor %}
 
