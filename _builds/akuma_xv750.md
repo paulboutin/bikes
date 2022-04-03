@@ -20,7 +20,7 @@ aside: 1994 Yamaha XV750 (Virago) Converted to this bas ass bobber called Akuma 
 
 **T**he frame's rear section was modified to flatten out the upswept factory line and lowered 2 1/2 inches. It was then hand stripped with a wire wheel and cleaned up. The welds were accented and the frame was clear coated. 10 1/2 inch DNM shocks complete the line of the frame.
 
-![XV750](/bikes/assets/img/94_XV750/IMG_2919.jpeg#border)
+![XV750](/bikes/assets/img/94_XV750/IMG_2919.jpg#border)
 
 **U**p front, 1 inch drag bars were installed with a set of reverse levers and Vans grips. The stock gauges were removed and a new smaller speedometer was added just inside the riders left knee. The brake master cylinder and reservoir were relocated below the neck of the frame and cover up the ignition coils. Small discreet switches were added for the left bar controls.
 
@@ -32,7 +32,7 @@ A new old school harley headlight bucket was used with a new halo style LED to k
 
 **S**tainless exhaust tips complete the look of the wild curves of the daemon tail exhaust. It was pieced together with pie cuts of various degrees and wrapped in titanium exhaust wrap. The engine was painted two tone black and red to accent the tanks colors and theme.
 
-[![XV750](/bikes/assets/img/94_XV750/1_side_play.png#border)](/bikes/builds/yamaha_xv750_video "Listen to it run")
+[![XV750](/bikes/assets/img/94_XV750/1_side_play.png#border)](/bikes/builds/yamaha-xv750-video "Listen to it run")
 *Running video*
 
 ![XV750](/bikes/assets/img/94_XV750/IMG_2916.jpeg#border)
