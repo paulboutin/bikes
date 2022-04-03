@@ -29,7 +29,7 @@ body {
     -webkit-font-smoothing: subpixel-antialiased;
   }
   section {
-    width: auto;
+    width: 60%;
     float: right;
     margin-left: 35%;
     padding-bottom: 50px;
